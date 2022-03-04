@@ -12,7 +12,6 @@ import {
 } from 'react-bootstrap';
 import Rating from '../components/Rating';
 import products from '../products';
-import { LinkContainer } from 'react-router-bootstrap';
 
 const ProductScreen = () => {
     const params = useParams();

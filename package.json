@@ -1,0 +1,23 @@
+{
+    "name": "myshop",
+    "version": "1.0.0",
+    "description": "MERN shopping cart app",
+    "main": "server.js",
+    "scripts": {
+        "start": "node backend/server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mbihrle/myshop.git"
+    },
+    "author": "Marco Bihrle",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mbihrle/myshop/issues"
+    },
+    "homepage": "https://github.com/mbihrle/myshop#readme",
+    "dependencies": {
+        "express": "^4.17.3"
+    }
+}
