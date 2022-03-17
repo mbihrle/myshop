@@ -42,7 +42,7 @@ const CartScreen = () => {
     };
 
     const checkoutHandler = () => {
-        navigate('/login?redirect=shipping');
+        navigate('/login?navigate=/shipping');
     };
 
     return (
@@ -75,6 +75,7 @@ const CartScreen = () => {
                                     <Col md={2}>
                                         <Form.Control
                                             as='select'
+                                            size='sm'
                                             value={item.qty}
                                             onChange={(e) =>
                                                 dispatch(
