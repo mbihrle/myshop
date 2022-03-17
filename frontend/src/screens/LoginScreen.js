@@ -37,7 +37,7 @@ const LoginScreen = () => {
             {error && <Message variant='danger'>{error}</Message>}
             {loading && <Loader />}
             <Form onSubmit={submitHandler}>
-                <Form.Group controlId='email'>
+                <Form.Group controlId='email' className='mb-3'>
                     <Form.Label>Email Address</Form.Label>
                     <Form.Control
                         type='email'
@@ -46,7 +46,7 @@ const LoginScreen = () => {
                         onChange={(e) => setEmail(e.target.value)}
                     ></Form.Control>
                 </Form.Group>
-                <Form.Group controlId='password'>
+                <Form.Group controlId='password' className='mb-3'>
                     <Form.Label>Password</Form.Label>
                     <Form.Control
                         type='password'
